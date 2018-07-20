@@ -1,6 +1,6 @@
-# GraphQL Boilerplate
+Thanks to [Matt Riley](https://github.com/matt-riley) for letting me copy this GraphQL boilerplate from his repo..!
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/matt-riley/gql_boilerplate.svg)](https://greenkeeper.io/)
+# GraphQL Boilerplate
 
 The purpose of this repo is to provide myself with a simple boilerplate for setting up a GraphQL service.
 
