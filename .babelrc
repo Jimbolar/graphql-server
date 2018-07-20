@@ -1,0 +1,22 @@
+{
+  "presets": ["env"],
+  "compact": true,
+  "plugins": [
+    ["transform-import-to-read-file-sync", {
+      test: "\\.graphql$",
+      options: "utf8"
+    }],
+    "transform-async-to-generator",
+    "transform-regenerator",
+    "transform-object-rest-spread",
+    "syntax-async-functions",
+    ["babel-plugin-transform-builtin-extend", {
+      globals: ["Error"]
+    }]
+  ],
+  "env": {
+    "production": {
+      "presets": ["minify"]
+    }
+  }
+}
