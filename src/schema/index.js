@@ -8,6 +8,7 @@ const logger = { log: err => console.log(err) };
 const FortniteSchema = `
 type Query {
   getFortniteStats: String
+  getLesson: String
 }
 `;
 

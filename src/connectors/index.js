@@ -8,7 +8,15 @@ const fortniteStats = {
     },
   };
 
-export { fortniteStats };
+  const getLesson = {
+    getStats: function() {
+      return fetch('http://fortunecookieapi.herokuapp.com/v1/cookie')
+            .then(res => res.json())
+            .then(res => {return res[0].lesson.english;})
+      },
+    };
+
+export { fortniteStats, getLesson };
 
 
 // return fetch('https://api.fortnitetracker.com/v1/profile/psn/jimbolar')
