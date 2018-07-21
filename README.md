@@ -1,4 +1,4 @@
-Thanks to [Matt Riley](https://github.com/matt-riley) for letting me copy this GraphQL boilerplate from his repo..!
+Thanks to [Matt Riley](https://github.com/matt-riley) for letting me copy this GraphQL boilerplate from his [repo](https://github.com/matt-riley/gql_boilerplate).
 
 # GraphQL Boilerplate
 
